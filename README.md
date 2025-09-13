@@ -43,21 +43,25 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-
+<img width="316" height="118" alt="Screenshot from 2025-09-13 20-02-19" src="https://github.com/user-attachments/assets/97049908-7b96-44c5-8ddf-3e11289bb79d" />
 
 cat < file2
 ## OUTPUT
+<img width="331" height="131" alt="Screenshot from 2025-09-13 20-04-04" src="https://github.com/user-attachments/assets/e7f4c21f-d8c4-4725-9c7a-c18d6edf214d" />
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ <img width="347" height="51" alt="Screenshot from 2025-09-13 20-07-06" src="https://github.com/user-attachments/assets/43f46139-67f2-4c99-b98a-e53f5e09ec82" />
+
 comm file1 file2
  ## OUTPUT
+<img width="343" height="243" alt="Screenshot from 2025-09-13 20-24-11" src="https://github.com/user-attachments/assets/747b782d-f35d-476c-b86a-98ae46539fc2" />
 
  
 diff file1 file2
 ## OUTPUT
+<img width="338" height="183" alt="Screenshot from 2025-09-13 20-25-25" src="https://github.com/user-attachments/assets/3d059589-6804-46fd-9e89-8ab2bcff8d98" />
 
 
 #Filters
@@ -82,16 +86,21 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+<img width="382" height="67" alt="Screenshot from 2025-09-13 20-31-47" src="https://github.com/user-attachments/assets/e4c8a1e1-ad6c-4c4b-b932-8161b23cf17a" />
+
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+
+<img width="406" height="88" alt="Screenshot from 2025-09-13 20-35-38" src="https://github.com/user-attachments/assets/33e05ad4-77b1-4e71-aa18-6b341cee67bb" />
 
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+<img width="406" height="88" alt="Screenshot from 2025-09-13 20-33-56" src="https://github.com/user-attachments/assets/2f9cfd9b-fea9-495f-b10a-de54b7438caa" />
 
 
 cat < newfile 
@@ -165,6 +174,7 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+<img width="497" height="68" alt="Screenshot from 2025-09-13 20-56-06" src="https://github.com/user-attachments/assets/8290fd3b-6632-4c33-b839-324fdd99b8b5" />
 
 
 
@@ -172,49 +182,61 @@ egrep -w 'Hello|hello' newfile
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
+<img width="473" height="86" alt="Screenshot from 2025-09-13 20-54-54" src="https://github.com/user-attachments/assets/1bdb22d8-918b-4f15-bf10-f92bce6a72c4" />
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+<img width="497" height="68" alt="Screenshot from 2025-09-13 20-57-54" src="https://github.com/user-attachments/assets/2ea7b4ea-18ed-44c8-9205-54ea0dff00dd" />
 
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+<img width="503" height="50" alt="Screenshot from 2025-09-13 20-59-15" src="https://github.com/user-attachments/assets/67ac3aa5-8e97-4be9-81f8-344ddba0b843" />
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+<img width="502" height="85" alt="Screenshot from 2025-09-13 21-01-46" src="https://github.com/user-attachments/assets/bb35b65b-9cec-40bd-bf74-cb97a8aeb3df" />
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+<img width="502" height="85" alt="Screenshot from 2025-09-13 21-03-55" src="https://github.com/user-attachments/assets/a485eee8-099b-4f28-89db-de18e4736387" />
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+<img width="502" height="86" alt="Screenshot from 2025-09-13 21-05-26" src="https://github.com/user-attachments/assets/7fe08a3f-5bd8-4150-9173-de9328e812dd" />
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+<img width="500" height="46" alt="Screenshot from 2025-09-13 21-06-38" src="https://github.com/user-attachments/assets/db543acc-6ebb-4e01-9dd4-04d4aadf855c" />
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+<img width="503" height="66" alt="Screenshot from 2025-09-13 21-07-42" src="https://github.com/user-attachments/assets/8576fa34-231a-4198-a7e3-57353a0eec8d" />
+
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+<img width="492" height="88" alt="Screenshot from 2025-09-13 21-17-28" src="https://github.com/user-attachments/assets/1544b199-2334-4421-8a18-4c2998b2b441" />
 
 
 egrep l{2} newfile
 ## OUTPUT
+<img width="503" height="66" alt="Screenshot from 2025-09-13 21-14-42" src="https://github.com/user-attachments/assets/22ed8959-8c34-4d6b-b302-9bb5ddf07a5f" />
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+<img width="492" height="88" alt="Screenshot from 2025-09-13 21-15-29" src="https://github.com/user-attachments/assets/8363b64d-5701-4f52-a89a-1958ff330aaf" />
 
 
 cat > file23
@@ -233,6 +255,8 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+<img width="490" height="245" alt="Screenshot from 2025-09-13 22-34-37" src="https://github.com/user-attachments/assets/c68e683d-dae0-4129-9c90-cfca602b1cac" />
+
 
 
 sed -n -e '$p' file23
@@ -242,52 +266,67 @@ sed -n -e '$p' file23
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
+<img width="487" height="194" alt="Screenshot from 2025-09-13 22-43-24" src="https://github.com/user-attachments/assets/567b0191-f77d-463a-b991-06e8846be691" />
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+<img width="487" height="194" alt="Screenshot from 2025-09-13 22-46-16" src="https://github.com/user-attachments/assets/f895d94f-c909-4725-9537-7b0e14ae1551" />
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
+<img width="487" height="194" alt="Screenshot from 2025-09-13 22-46-16" src="https://github.com/user-attachments/assets/e24d5eed-8c2c-4db5-8153-1dca36b67ea4" />
+
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
+<img width="494" height="120" alt="Screenshot from 2025-09-13 22-47-17" src="https://github.com/user-attachments/assets/a6926bfe-af8f-4229-81b5-560708150a83" />
+
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+<img width="490" height="89" alt="Screenshot from 2025-09-13 22-48-12" src="https://github.com/user-attachments/assets/8a9a81c4-30d8-414a-9db1-a59787b7fcd1" />
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-!
+
+<img width="486" height="71" alt="Screenshot from 2025-09-13 22-51-16" src="https://github.com/user-attachments/assets/4ab2c80a-f734-44ba-b2c1-dd69793d75be" />
+
 
 seq 10 
 ## OUTPUT
+
+<img width="492" height="217" alt="Screenshot from 2025-09-13 22-59-48" src="https://github.com/user-attachments/assets/6288ddec-e597-4423-b4b0-af4eddc880de" />
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
+<img width="485" height="104" alt="Screenshot from 2025-09-13 23-10-25" src="https://github.com/user-attachments/assets/201a8dfe-c341-4f83-be55-1b884711dad6" />
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-
+<img width="485" height="104" alt="Screenshot from 2025-09-13 23-16-25" src="https://github.com/user-attachments/assets/13535b6d-3254-4429-bab7-a0a4740e97cb" />
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-
+<img width="485" height="104" alt="Screenshot from 2025-09-13 23-18-41" src="https://github.com/user-attachments/assets/a4188cfe-3978-47ca-81a3-c6216d6957f9" />
 
 seq 2 | sed '2i hello'
 ## OUTPUT
 
+<img width="485" height="104" alt="Screenshot from 2025-09-13 23-20-27" src="https://github.com/user-attachments/assets/84a01552-4533-4451-9c1a-1d7c9de98d63" />
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+<img width="485" height="104" alt="Screenshot from 2025-09-13 23-22-02" src="https://github.com/user-attachments/assets/1b20b6a7-618d-40b6-82be-95cf621b8f74" />
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+<img width="485" height="104" alt="Screenshot from 2025-09-13 23-23-44" src="https://github.com/user-attachments/assets/84578be8-ebaf-4207-b7fd-4efc57aa65f9" />
 
 sed -n '2,4{s/$/*/;p}' file23
 
@@ -303,6 +342,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+<img width="447" height="265" alt="Screenshot from 2025-09-13 23-32-23" src="https://github.com/user-attachments/assets/5ae885d9-866a-480d-aac1-08d953885c54" />
 
 
 cat > file22
@@ -316,6 +356,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+<img width="424" height="214" alt="Screenshot from 2025-09-14 00-23-15" src="https://github.com/user-attachments/assets/abd7985e-74bb-4ac5-91e2-0851d28c831b" />
 
 
 #Using tr command
@@ -323,6 +364,7 @@ uniq file22
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
 
+<img width="533" height="186" alt="Screenshot from 2025-09-14 00-24-35" src="https://github.com/user-attachments/assets/e6914d51-aa6e-4c51-b322-246f11e9d495" />
 
 cat < urllist.txt
 ```
@@ -340,10 +382,13 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+<img width="531" height="95" alt="Screenshot from 2025-09-14 00-38-01" src="https://github.com/user-attachments/assets/0195671f-30b7-4535-ab62-a51193193619" />
+
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+<img width="531" height="95" alt="Screenshot from 2025-09-14 00-35-31" src="https://github.com/user-attachments/assets/fdb89bd7-cd37-4dd7-a7d4-f0c2358add88" />
 
 #Backup commands
 tar -cvf backup.tar *
