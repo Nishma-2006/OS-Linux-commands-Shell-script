@@ -424,6 +424,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+<img width="512" height="56" alt="Screenshot from 2025-09-14 16-20-56" src="https://github.com/user-attachments/assets/4f63d343-588e-46e7-ad6a-5697a6729f78" />
 
 
 cat << stop > herecheck.txt
@@ -436,6 +437,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="498" height="175" alt="Screenshot from 2025-09-14 16-28-13" src="https://github.com/user-attachments/assets/e6f52c23-cdcf-4390-8991-639950163f04" />
 
 
 cat < scriptest.sh 
@@ -474,25 +476,28 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="610" height="816" alt="Screenshot from 2025-09-14 16-41-12" src="https://github.com/user-attachments/assets/e5bea28b-3c1e-4809-811b-de4e0defb6e4" />
 
 ls file1
 ## OUTPUT
+<img width="542" height="44" alt="Screenshot from 2025-09-14 16-45-39" src="https://github.com/user-attachments/assets/dd3c4e68-34aa-4f61-8e92-7cfeb3469049" />
 
 
 echo $?
 ## OUTPUT 
 
+<img width="542" height="44" alt="Screenshot from 2025-09-14 16-43-52" src="https://github.com/user-attachments/assets/23fb2c04-59f1-442b-95b8-2ed2b755b01e" />
 
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT
+<img width="555" height="76" alt="Screenshot from 2025-09-14 16-46-53" src="https://github.com/user-attachments/assets/f170b68b-5e4c-4358-9612-8aa176d9f8c9" />
 
 abcd
  
-echo $?
- ## OUTPUT
+
 
  
 # mis-using string comparisons
@@ -527,7 +532,8 @@ fi
 
 chmod 755 strcomp.sh
 ./strcomp.sh 
-## OUTPUT
+## OUTPU<img width="552" height="69" alt="Screenshot from 2025-09-14 16-54-56" src="https://github.com/user-attachments/assets/80317b90-0e26-4447-9af4-9358070f8ba2" />
+T
 
 
 # check file ownership
@@ -555,6 +561,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="578" height="216" alt="Screenshot from 2025-09-14 18-11-24" src="https://github.com/user-attachments/assets/587d5f9c-d35c-4362-aa03-7f8129e51b84" />
 
 
 # check if with file location
@@ -602,6 +609,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+<img width="438" height="409" alt="Screenshot from 2025-09-14 17-12-18" src="https://github.com/user-attachments/assets/a4a94416-d116-46e6-995b-d8de85817490" />
 
 
 # using numeric test comparisons
@@ -644,6 +652,7 @@ fi
 $ chmod 755 iftest.sh
 $ ./iftest.sh 
 ##OUTPUT
+<img width="571" height="398" alt="Screenshot from 2025-09-15 20-11-31" src="https://github.com/user-attachments/assets/854a9fc2-6265-400f-873b-4e2713596eaa" />
 
 
 # check if a file
@@ -694,6 +703,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+<img width="438" height="409" alt="Screenshot from 2025-09-14 17-12-18" src="https://github.com/user-attachments/assets/5da4c244-04ae-48ee-b518-fa6e0e159192" />
 
 
 # looking for a possible value using elif
@@ -723,6 +733,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+<img width="630" height="460" alt="Screenshot from 2025-09-15 20-40-28" src="https://github.com/user-attachments/assets/0752fc2c-06d6-4ed0-a033-bb08f634a2bd" />
 
 
 # testing compound comparisons
@@ -739,6 +750,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="612" height="239" alt="Screenshot from 2025-09-15 20-44-54" src="https://github.com/user-attachments/assets/3a565402-2e22-4c3e-ab32-b05347f21c2d" />
 
 
 # using the case command
@@ -772,9 +784,12 @@ var1=$[ $var1 - 1 ]
 done
 ```
 $ chmod 755 whiletest.sh
+<img width="612" height="296" alt="Screenshot from 2025-09-15 20-50-57" src="https://github.com/user-attachments/assets/6ce37cd0-570b-48d6-bfe8-69875c984664" />
+
  
 $ ./whiletest.sh
- 
+ <img width="611" height="415" alt="Screenshot from 2025-09-15 20-55-14" src="https://github.com/user-attachments/assets/e0757ed4-6e83-4441-9a10-bbe38461658b" />
+
  
 cat untiltest.sh 
 ```bash
