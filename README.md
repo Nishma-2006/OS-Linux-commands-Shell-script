@@ -788,6 +788,8 @@ $ chmod 755 whiletest.sh
 
  
 $ ./whiletest.sh
+
+
  <img width="611" height="415" alt="Screenshot from 2025-09-15 20-55-14" src="https://github.com/user-attachments/assets/e0757ed4-6e83-4441-9a10-bbe38461658b" />
 
  
@@ -803,7 +805,8 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
+ <img width="480" height="300" alt="Screenshot from 2025-09-15 21-14-15" src="https://github.com/user-attachments/assets/0ee095d4-7572-4e00-b6a2-3e9128e3090e" />
+
  
 cat forin1.sh 
 ```bash
@@ -829,7 +832,10 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
+ <img width="572" height="330" alt="Screenshot from 2025-09-15 21-18-06" src="https://github.com/user-attachments/assets/ee47ba67-ad18-478b-9f59-6873a259f50b" />
+
+
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -843,6 +849,9 @@ $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
  
+<img width="571" height="279" alt="Screenshot from 2025-09-15 21-21-13" src="https://github.com/user-attachments/assets/0253a986-4520-4535-9263-6a920ab90e9b" />
+
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -853,7 +862,9 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+ <img width="564" height="388" alt="Screenshot from 2025-09-15 21-28-47" src="https://github.com/user-attachments/assets/5711999a-8a11-4edb-aa7a-cb983f9663a9" />
+
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -866,6 +877,7 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+<img width="572" height="330" alt="Screenshot from 2025-09-15 21-18-06" src="https://github.com/user-attachments/assets/9f6ac7f5-3e1f-4312-8de5-0ba39ae1008f" />
 
 
 cat forinfile.sh 
@@ -889,6 +901,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+<img width="576" height="224" alt="Screenshot from 2025-09-15 21-38-57" src="https://github.com/user-attachments/assets/c37e0b0a-99cd-43ac-aa17-cf755d6ef9dc" />
 
 
 cat forctype.sh 
@@ -903,6 +916,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+<img width="561" height="279" alt="Screenshot from 2025-09-15 21-41-28" src="https://github.com/user-attachments/assets/babd877e-1c07-4108-9f1a-0a49e2cc3029" />
 
 
 cat forctype1.sh 
@@ -917,6 +931,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+
+<img width="561" height="279" alt="Screenshot from 2025-09-15 21-44-00" src="https://github.com/user-attachments/assets/4526a183-5827-424d-9850-627c52891c1a" />
 
 
 cat fornested1.sh 
@@ -936,7 +952,8 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-!
+<img width="533" height="473" alt="Screenshot from 2025-09-15 21-54-34" src="https://github.com/user-attachments/assets/e6655ff6-c20c-4e8c-9b45-83c453c9488b" />
+
  
 cat forbreak.sh 
 ```bash
