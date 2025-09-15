@@ -970,6 +970,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+![e1554f78-41d6-4f32-addd-5f0d1b2e7fc5](https://github.com/user-attachments/assets/d569e327-4249-4d91-ae02-039e26da4b61)
 
 
 $ chmod 755 forbreak.sh
@@ -996,7 +997,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![3118893d-166d-4bda-8b7e-85e18730707c](https://github.com/user-attachments/assets/5bba594d-a959-4e5f-903a-2ae0bad6ef11)
+
 
 cat exread.sh 
 ```bash
@@ -1011,6 +1013,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+![886a6f51-8ef3-48cb-bd1e-67e8bc464c91](https://github.com/user-attachments/assets/564c4496-7e67-4cf1-9fb4-27d4b88e20d4)
 
 
  cat exread1.sh
@@ -1043,8 +1046,11 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
- ./funcex.sh 
+ ./funcex.sh
+ ![08e35c99-cba7-4628-bbc8-35d1611c2aac](https://github.com/user-attachments/assets/ecf81cd1-6981-49d6-b3b3-efe5270f5409)
 
+
+![bcee69f7-18ed-4f98-9948-44511505c08e](https://github.com/user-attachments/assets/3be7b8f7-498b-4c59-b875-91a8bf052321)
 
  ./funcex.sh 1 2
 
