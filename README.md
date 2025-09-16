@@ -116,11 +116,13 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+<img width="454" height="54" alt="Screenshot from 2025-09-16 09-47-58" src="https://github.com/user-attachments/assets/7e1058ae-d2d3-41e4-917c-e4504a8e8434" />
 
 
 
 grep hello newfile 
 ## OUTPUT
+<img width="454" height="54" alt="Screenshot from 2025-09-16 09-48-05" src="https://github.com/user-attachments/assets/113e1d04-430c-4eba-a1a1-8a9ab4c01726" />
 
 
 
@@ -128,16 +130,19 @@ grep hello newfile
 grep -v hello newfile 
 ## OUTPUT
 
+<img width="454" height="54" alt="Screenshot from 2025-09-16 09-48-10" src="https://github.com/user-attachments/assets/e9781a3a-db2f-4409-bd04-710025df8800" />
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
+<img width="481" height="70" alt="Screenshot from 2025-09-16 09-48-17" src="https://github.com/user-attachments/assets/fa410b9d-4da0-4717-b183-06c7ec506969" />
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+<img width="481" height="70" alt="Screenshot from 2025-09-16 09-48-24" src="https://github.com/user-attachments/assets/7a2966fc-3040-4ab2-b281-b1490b358039" />
 
 
 
@@ -146,11 +151,13 @@ cat newfile | grep -i -c "hello"
 grep -R ubuntu /etc
 ## OUTPUT
 
+<img width="1039" height="1066" alt="Screenshot from 2025-09-16 09-49-57" src="https://github.com/user-attachments/assets/ae9fcb70-437e-4d25-b773-21f6b08cda14" />
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
+<img width="481" height="70" alt="Screenshot from 2025-09-16 09-48-56" src="https://github.com/user-attachments/assets/1ca26bc0-95c2-48cd-83d1-f47a4af5d6ad" />
 
 
 cat < newfile 
@@ -1026,6 +1033,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+<img width="443" height="190" alt="Screenshot from 2025-09-16 08-29-10" src="https://github.com/user-attachments/assets/acf3f94c-abf8-4562-912a-0c047f396613" />
 
 
 $ ./exread1.sh 
@@ -1047,11 +1055,13 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh
+ 
  ![08e35c99-cba7-4628-bbc8-35d1611c2aac](https://github.com/user-attachments/assets/ecf81cd1-6981-49d6-b3b3-efe5270f5409)
 
 
 ![bcee69f7-18ed-4f98-9948-44511505c08e](https://github.com/user-attachments/assets/3be7b8f7-498b-4c59-b875-91a8bf052321)
 
+ 
  ./funcex.sh 1 2
 
 
@@ -1067,6 +1077,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+
+<img width="406" height="81" alt="Screenshot from 2025-09-16 08-34-02" src="https://github.com/user-attachments/assets/58e06ff2-aea7-4e82-a01e-b372f02e2a49" />
 
 
  cat argshift1.sh
@@ -1085,6 +1097,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+<img width="406" height="81" alt="Screenshot from 2025-09-16 08-34-02" src="https://github.com/user-attachments/assets/f0f34004-7198-473a-aad3-60d178a7f857" />
+
 
 cat argshift.sh
 ```bash
@@ -1099,6 +1113,9 @@ set +x
 ## OUTPUT
  ./argshift.sh 1 2 3
  
+<img width="422" height="282" alt="Screenshot from 2025-09-16 08-37-47" src="https://github.com/user-attachments/assets/dbbc7577-2021-4eea-a8fe-87f0ee14eb3c" />
+
+
 
 cat > nc.awk
 ```bash
@@ -1130,6 +1147,8 @@ ubcdfghj
 awk -f nc.awk data.dat
 ## OUTPUT 
 
+<img width="469" height="766" alt="Screenshot from 2025-09-16 08-53-51" src="https://github.com/user-attachments/assets/e623e3ae-3e5c-44dd-84cb-f67955dfb0c3" />
+
 
 cat > palindrome.sh
 ```bash
@@ -1157,6 +1176,8 @@ else
 fi
 ```
 ## OUTPUT 
+<img width="520" height="509" alt="Screenshot from 2025-09-16 09-05-21" src="https://github.com/user-attachments/assets/19faa34f-3bfa-423d-b085-b820fa32bbff" />
+
 
 
 # RESULT:
