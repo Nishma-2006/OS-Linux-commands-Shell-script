@@ -181,6 +181,7 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+
 <img width="497" height="68" alt="Screenshot from 2025-09-13 20-56-06" src="https://github.com/user-attachments/assets/8290fd3b-6632-4c33-b839-324fdd99b8b5" />
 
 
@@ -400,6 +401,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="911" height="170" alt="Screenshot from 2025-09-16 11-09-05" src="https://github.com/user-attachments/assets/6bdc028f-e8aa-45dd-a1e4-603d219a3dd7" />
 
 
 mkdir backupdir
@@ -408,10 +410,12 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="908" height="191" alt="Screenshot from 2025-09-16 11-28-55" src="https://github.com/user-attachments/assets/dd681472-f608-4764-8672-c97b344df3df" />
 
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="911" height="170" alt="Screenshot from 2025-09-16 11-14-25" src="https://github.com/user-attachments/assets/d2b0872e-99d7-4d41-a7ea-4c00fc40adeb" />
 
 
 gzip backup.tar
@@ -419,8 +423,13 @@ gzip backup.tar
 ls .gz
 ## OUTPUT
  
+<img width="893" height="59" alt="Screenshot from 2025-09-16 11-30-49" src="https://github.com/user-attachments/assets/702845b4-12ad-4242-9417-a18df00211c0" />
+
+
 gunzip backup.tar.gz
 ## OUTPUT
+
+<img width="875" height="509" alt="Screenshot from 2025-09-16 11-31-45" src="https://github.com/user-attachments/assets/d4576b51-68aa-4b7a-aec2-a0a4a078b4a9" />
 
  
 # Shell Script
@@ -535,12 +544,14 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+
 
 chmod 755 strcomp.sh
 ./strcomp.sh 
-## OUTPU<img width="552" height="69" alt="Screenshot from 2025-09-14 16-54-56" src="https://github.com/user-attachments/assets/80317b90-0e26-4447-9af4-9358070f8ba2" />
-T
+## OUTPUT
+
+<img width="552" height="69" alt="Screenshot from 2025-09-14 16-54-56" src="https://github.com/user-attachments/assets/80317b90-0e26-4447-9af4-9358070f8ba2" />
+
 
 
 # check file ownership
